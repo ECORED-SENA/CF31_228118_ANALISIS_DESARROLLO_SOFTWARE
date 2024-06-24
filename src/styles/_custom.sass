@@ -52,6 +52,125 @@
     span
       color: $color-sistema-texto
 
+//titulos
+.cont-titulo-decorativo
+  position: relative
+  max-width: max-content
+  figure
+    width: 40px
+    position: relative
+  h3
+    position: relative
+    color: white
+  &:before
+    content: ""
+    position: absolute
+    left: 0
+    bottom: 0
+    right: 0
+    top: 23px
+    background: rgb(119,55,240)
+    background: linear-gradient(180deg, rgba(119,55,240,1) 0%, rgba(41,17,85,1) 100%)
+    border-radius: 6px
+    z-index: 0
+
 //bordes
 .borde-10
   border-radius: 10px !important
+
+.borde-s-1
+  border-width: 5px
+  border-style: solid
+  border-color: $color-secundario
+
+
+//fondos
+.fondo-personalizado-1
+  position: relative
+  &:before
+    content: ""
+    position: absolute
+    width: 108%
+    left: -4%
+    @media screen and (max-width: $bp-max-xl)
+      width: 110%
+      left: -5%
+    @media screen and (max-width: $bp-max-lg)
+      width: 112%
+      left: -6%
+    @media screen and (max-width: $bp-max-md)
+      width: 116%
+      left: -8%
+    @media screen and (max-width: $bp-max-sm)
+      width: 110%
+      left: -5%
+    @media screen and (max-width: 520px)
+      width: 120%
+      left: -10%
+    top: 0
+    bottom: 0
+    z-index: 0
+    background-repeat: no-repeat
+    background-position: top
+    background-size: cover
+  &.no-tam-full
+    &:before
+      left: 0 !important
+      width: 100% !important
+  &.f1
+    &:before
+      background-image: url(../assets/curso/temas/4.png)
+  &.f2
+    &:before
+      background-image: url(../assets/curso/temas/16.png)
+    &.t1
+      &:before
+        top: 15%
+  &.f3
+    &:before
+      background-image: url(../assets/curso/temas/24.png)
+  &.f4
+    &:hover
+      &:before
+        background-color: $color-primario
+    &:before
+      background-color: $color-sistema-k
+      border-radius: 20px
+      top: 60px
+  &__contenido
+    position: relative
+
+//color fondos
+.fondo-color-sistema-h
+  background-color: $color-sistema-h
+.fondo-color-sistema-i
+  background-color: $color-sistema-i
+.fondo-color-sistema-j
+  background-color: $color-sistema-j
+.fondo-color-sistema-k
+  background-color: $color-sistema-k
+.fondo-color-sistema-l
+  background-color: $color-sistema-l
+.fondo-color-sistema-m
+  background-color: $color-sistema-m
+.fondo-color-sistema-n
+  background-color: $color-sistema-n
+.fondo-color-sistema-p
+  background-color: $color-sistema-p
+.fondo-color-sistema-q
+  background-color: $color-sistema-q
+.fondo-color-secundario
+  background-color: $color-secundario
+.fondo-color-sistema-o
+  background-color: $color-sistema-o
+.fondo-color-acento-contenido
+  background-color: $color-acento-contenido
+
+//colores
+.color-sistema-o
+  color: $color-sistema-o
+
+//listas
+.list-1
+  li
+    display: flex
