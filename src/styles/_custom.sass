@@ -75,8 +75,12 @@
     z-index: 0
 
 //bordes
+.borde-5
+  border-radius: 5px !important
 .borde-10
   border-radius: 10px !important
+.borde-20
+  border-radius: 20px !important
 
 .borde-s-1
   border-width: 5px
@@ -137,6 +141,30 @@
       background-color: $color-sistema-k
       border-radius: 20px
       top: 60px
+  &.f5
+    overflow-y: clip
+    .img-fl-1
+      position: absolute
+      &.img-fl-1__1
+        left: -135px
+        top: -30px
+      &.img-fl-1__2
+        bottom: -26px
+        left: -84px
+      &.img-fl-1__3
+        top: -33px
+        left: 29%
+      &.img-fl-1__4
+        top: -47px
+        right: -102px
+      &.img-fl-1__5
+        bottom: -229px
+        right: -260px
+    &:before
+      background-color: $color-sistema-n
+  &.borde-10
+    &:before
+      border-radius: 10px 
   &__contenido
     position: relative
 
@@ -161,6 +189,8 @@
   background-color: $color-sistema-q
 .fondo-color-secundario
   background-color: $color-secundario
+.fondo-color-primario
+  background-color: $color-primario
 .fondo-color-sistema-o
   background-color: $color-sistema-o
 .fondo-color-acento-contenido
@@ -174,3 +204,29 @@
 .list-1
   li
     display: flex
+
+//slider
+.slider-personalizado-1
+  .slyder-f__btn
+    position: relative
+    *
+      position: relative
+    &:before
+      content: ""
+      background-color: #FFCE00
+      position: absolute
+      height: 50px
+      width: 50px
+      z-index: 0
+      border-radius: 50%
+      @media screen and (max-width: 576px)
+        width: 30px
+        height: 30px
+    i
+      font-size: 1rem
+      color: $color-sistema-texto
+
+//tabs
+.tab-a-personalizado-1
+  .tabs-a__tab
+    background-color: $color-acento-botones

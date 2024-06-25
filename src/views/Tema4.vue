@@ -29,7 +29,55 @@
       .col 
         p.mb-0 Los contenedores encapsulan únicamente el #[em software] específico de la aplicación que se ejecuta dentro de él, junto con las librerías de las cuales depende para su ejecución, abstrayendo el servidor en el que se va a ejecutar. Esto logra una portabilidad real, ya que es posible predecir el comportamiento de un #[em software] cuando este se mueve de un servidor a otro.
     
-    p(style="color:red;") aqui va el slyder
+    .fondo-personalizado-1.f5.mb-4
+      img.img-fl-1.img-fl-1__1(src="@/assets/curso/temas/41.png",style="max-width: 151px;")
+      img.img-fl-1.img-fl-1__2(src="@/assets/curso/temas/42.png",style="max-width: 96px;")
+      img.img-fl-1.img-fl-1__3(src="@/assets/curso/temas/43.png",style="max-width: 75px;")
+      img.img-fl-1.img-fl-1__4(src="@/assets/curso/temas/44.png",style="max-width: 115px;")
+      img.img-fl-1.img-fl-1__5(src="@/assets/curso/temas/45.png",style="max-width: 405px;")
+      .fondo-personalizado-1__contenido.py-5
+        SlyderF.slider-personalizado-1(columnas="col-lg-4")
+          .borde-20.overflow-hidden.h-100
+            .fondo-color-primario.p-4.d-flex.justify-content-center
+              .fig-per-1.p-2
+                .fig-circulo.p-3
+                  img.mx-auto(src="@/assets/curso/temas/36.svg",style="max-width: 71px;")
+            .fondo-color-sistema-j.p-4.pb-lg-5.h-100
+              h4.mb-4.text-center Disminución de gastos
+              p.mb-0.text-center Requieren menos recursos del sistema comparado con sistemas de virtualización tradicionales. 
+          .borde-20.overflow-hidden.h-100
+            .fondo-color-primario.p-4.d-flex.justify-content-center
+              .fig-per-1.p-2
+                .fig-circulo.p-3
+                  img.mx-auto(src="@/assets/curso/temas/37.svg",style="max-width: 64px;")
+            .fondo-color-sistema-j.p-4.pb-lg-5.h-100
+              h4.mb-4.text-center Mayor portabilidad
+              p.mb-0.text-center Se pueden implementar fácilmente en diferentes plataformas y sistemas operativos. 
+          .borde-20.overflow-hidden.h-100
+            .fondo-color-primario.p-4.d-flex.justify-content-center
+              .fig-per-1.p-2
+                .fig-circulo.p-3
+                  img.mx-auto(src="@/assets/curso/temas/38.svg",style="max-width: 59px;")
+            .fondo-color-sistema-j.p-4.pb-lg-5.h-100
+              h4.mb-4.text-center Funcionamiento coherente
+              p.mb-0.text-center Siempre se ejecutan de la misma manera independientemente del lugar donde se implementen.
+          .borde-20.overflow-hidden.h-100
+            .fondo-color-primario.p-4.d-flex.justify-content-center
+              .fig-per-1.p-2
+                .fig-circulo.p-3
+                  img.mx-auto(src="@/assets/curso/temas/39.svg",style="max-width: 64px;")
+            .fondo-color-sistema-j.p-4.pb-lg-5.h-100
+              h4.mb-4.text-center Mayor eficiencia
+              p.mb-0.text-center Permiten la implementación de modificaciones y/o escalamiento de funcionalidades con mayor rapidez.
+          .borde-20.overflow-hidden.h-100
+            .fondo-color-primario.p-4.d-flex.justify-content-center
+              .fig-per-1.p-2
+                .fig-circulo.p-3
+                  img.mx-auto(src="@/assets/curso/temas/40.svg",style="max-width: 64px;")
+            .fondo-color-sistema-j.p-4.pb-lg-5.h-100
+              h4.mb-4.text-center Mejor desarrollo de aplicaciones
+              p.mb-0.text-center Este modelo de virtualización se alinea perfectamente con las metodologías ágiles y enfoques de DevOps de la industria actual para acelerar el proceso de construcción de #[em software].
+
 
     p.mb-4 A continuación, se listan algunos de los casos más comunes en los que las organizaciones optan por el uso de contenedores:
 
@@ -82,6 +130,26 @@ export default {
 </script>
 
 <style scoped lang="sass">
+.fig-per-1
+  width: 130px
+  height: 130px
+  @media screen and (max-width: 768px)
+    width: 100px
+    height: 100px
+  display: inline-flex
+  background-color: rgba(255, 255, 255, 0.2)
+  border-radius: 50%
+  .fig-circulo
+    border-radius: 50%
+    width: 100%
+    height: 100%
+    border-width: 1px
+    border-style: solid
+    border-color: rgba(255, 255, 255, 0.2)
+    display: flex
+    align-items: center
+    justify-content: center
+
 .circulo-cus-1
   height: 104px
   width: 104px
