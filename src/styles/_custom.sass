@@ -280,3 +280,41 @@
 //links
 .link-p-1
   color: $blue !important
+
+//bloque codigo
+.bloque-codigo-personalizado
+  width: 100%
+  border-radius: 9px
+  overflow: hidden
+  .cabecera-bloque-codigo
+    background-color: $color-primario !important
+    .bloque-codigo-circulos
+      display: flex
+      gap: 1em
+      .bloque-codigo-circulo
+        height: 16px
+        width: 16px
+        border-radius: 50%
+        &.c1
+          background-color: #FB130D
+        &.c2
+          background-color: #FECD02
+        &.c3
+          background-color: #43DFAA
+  .cuerpo-bloque-codigo
+    color: white !important
+    background-color: #110628 !important
+    overflow-x: auto
+    text-wrap: nowrap
+    code
+      font-family: $base-font-family
+      color: white !important
+
+//tablas
+.tabla-personalizada-1
+  td,th
+    border-color: $color-primario
+  thead
+    border-top: none
+    background-color: $color-primario
+    color: white
