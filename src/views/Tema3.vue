@@ -114,6 +114,272 @@
     
     p.mb-5 #[em VirtualBox] es una de las herramientas de virtualización de servidores más utilizadas, debido a que permite trabajar desde diversos sistemas operativos como #[em host] y, de igual forma, virtualizar una gran cantidad de sistemas operativos diferentes. Adicionalmente, es un #[em software] de uso gratuito. Para hacer el proceso de instalación, es necesario ir directamente a la página oficial de la herramienta, en la sección de descargas, y luego seleccionar el tipo de sistema operativo del equipo #[em host].
 
+    .row.justify-content-center
+      .col-lg-8
+        .fondo-color-sistema-i.p-4.borde-10.pb-5
+          .row.justify-content-center
+            .col-lg-10
+              .titulo-sexto.color-acento-contenido.ms-lg-4
+                p.mb-0(style="font-size: 14px;") #[b(style="font-size: 13px;") Figura 3.] Instalación de VirtualBox
+              figure
+                img.mx-auto(src="@/assets/curso/temas/48.svg",style="max-width: 610px;",alt="Pantalla de la página de descarga de VirtualBox, mostrando opciones para diferentes sistemas operativos como Windows, OS X y Linux.")
+
+    .cont-titulo-decorativo.p-2.mt-5.mb-4
+      .row
+        .col-auto.pe-0
+          figure
+            img(src="@/assets/curso/temas/img-titulo-dec.svg")
+        .col.align-self-end
+          h3.mt-3.mb-0.me-2 Instalador de VirtualBox
+    
+    p.mb-5 Realizado el proceso anterior, se procede a buscar en la carpeta de descargas, o en la que se haya programado el alojamiento de la descarga, para ejecutarlo e iniciar su instalación. Recuerde que el sistema le solicitará algunos permisos necesarios en el equipo #[em host] para este proceso.
+
+    .row.justify-content-center
+      .col-lg-8
+        .fondo-color-sistema-i.p-4.borde-10.pb-5
+          .row.justify-content-center
+            .col-lg-10
+              .titulo-sexto.color-acento-contenido
+                p.mb-0(style="font-size: 14px;") #[b(style="font-size: 13px;") Figura 4.] Instalador de VirtualBox
+              figure
+                img.mx-auto(src="@/assets/curso/temas/49.svg",style="max-width: 466px;",alt="Pantalla de bienvenida del asistente de instalación de Oracle VM VirtualBox 6.1.22, con la opción de continuar o cancelar la instalación.")
+
+    .cont-titulo-decorativo.p-2.mt-5.mb-4
+      .row
+        .col-auto.pe-0
+          figure
+            img(src="@/assets/curso/temas/img-titulo-dec.svg")
+        .col.align-self-end
+          h3.mt-3.mb-0.me-2 Interfaz de Custom Setup de VirtualBox
+    
+    p.mb-4 Continuando con el proceso de instalación, se realiza la verificación de los componentes, características y ubicación física donde se instalará en el equipo #[em host] y los accesos directos. Se recomienda dejar las opciones por defecto que presenta el sistema. Sin embargo, se pueden realizar los ajustes que se consideren pertinentes según la necesidad a cubrir.
+
+    .row.justify-content-center
+      .col-lg-8
+        .fondo-color-sistema-i.p-4.borde-10.pb-5
+          .row.justify-content-center
+            .col-lg-10
+              .titulo-sexto.color-acento-contenido
+                p.mb-0(style="font-size: 14px;") #[b(style="font-size: 13px;") Figura 5.] Interfaz de Custom Setup VirtualBox
+              figure
+                img.mx-auto(src="@/assets/curso/temas/50.svg",style="max-width: 461px;",alt="Pantalla de configuración personalizada en el asistente de instalación de VirtualBox, permitiendo seleccionar características específicas como soporte USB, redes, y más.")
+
+    .cont-titulo-decorativo.p-2.mt-5.mb-4
+      .row
+        .col-auto.pe-0
+          figure
+            img(src="@/assets/curso/temas/img-titulo-dec.svg")
+        .col.align-self-end
+          h3.mt-3.mb-0.me-2 Interfaz de Custom Setup 2 de VirtualBox
+    
+    p.mb-4 Finalizada la verificación de las características de configuración de la instalación, el sistema indica que se requiere un reinicio de la conexión de red y una desconexión temporal de la misma. Sin embargo, esto ocurre en fracción de segundos, por lo que no afecta realmente el sistema, a menos que en ese mismo momento se esté realizando un proceso crítico en el host que requiera conexión ininterrumpida.
+
+
+    .row.align-items-center.mb-4
+      .col-lg-8
+        .row.px-2
+          .fondo-color-sistema-j.py-2.borde-10
+            .row.align-items-center.py-2.ps-1(style="border-bottom: 2px dotted #A854F3;")
+              .col-sm-auto.mb-3.mb-sm-0
+                figure
+                  img.mx-auto(src="@/assets/curso/temas/52.svg",style="max-width: 35px;")
+              .col 
+                p.mb-0.fw-bold.text-center.text-sm-start Interfaz de advertencia de red de VirtualBox.
+            .row.align-items-center.py-2.ps-1(style="border-bottom: 2px dotted #A854F3;")
+              .col-sm-auto.mb-3.mb-sm-0
+                figure
+                  img.mx-auto(src="@/assets/curso/temas/53.svg",style="max-width: 35px;")
+              .col 
+                p.mb-0.fw-bold.text-center.text-sm-start El sistema pedirá aceptar el procedimiento de instalación.
+            .row.align-items-center.py-2.ps-1(style="border-bottom: 2px dotted #A854F3;")
+              .col-sm-auto.mb-3.mb-sm-0
+                figure
+                  img.mx-auto(src="@/assets/curso/temas/54.svg",style="max-width: 35px;")
+              .col 
+                p.mb-0.fw-bold.text-center.text-sm-start Interfaz #[em "Ready to Install"] de VirtualBox.
+            .row.align-items-center.py-2.ps-1(style="border-bottom: 2px dotted #A854F3;")
+              .col-sm-auto.mb-3.mb-sm-0
+                figure
+                  img.mx-auto(src="@/assets/curso/temas/55.svg",style="max-width: 35px;")
+              .col 
+                p.mb-0.fw-bold.text-center.text-sm-start El sistema pedirá dar clic en "Instalar" para continuar con el procedimiento.
+            .row.align-items-center.py-2.ps-1
+              .col-sm-auto.mb-3.mb-sm-0
+                figure
+                  img.mx-auto(src="@/assets/curso/temas/56.svg",style="max-width: 35px;")
+              .col 
+                p.mb-0.fw-bold.text-center.text-sm-start Interfaz de advertencia de red de VirtualBox.
+
+
+      .col-lg-4.order-first.order-lg-last
+        figure.mb-4.mb-lg-0
+          img.mx-auto(src="@/assets/curso/temas/51.png",style="max-width: 400px;")
+
+    .row.mb-4
+      .col-auto.d-none.d-md-block 
+        figure.mb-4.mb-lg-0
+          img.mx-auto(src="@/assets/curso/temas/1.svg",style="max-width: 100px;")
+      .col 
+        p.mb-0 En algunas ocasiones, es posible que en los sistemas operativos #[em Windows] se presente o salte una advertencia de seguridad, indicando al usuario que se va a autorizar una instalación de un #[em software] de #[em Oracle Corporation]. Al momento que el sistema genere la notificación, se deberá indicar que se desea instalar para poder continuar.
+
+    .row.justify-content-center
+      .col-lg-8
+        .fondo-color-sistema-i.p-4.borde-10.pb-5
+          .row.justify-content-center
+            .col-lg-10
+              .titulo-sexto.color-acento-contenido
+                p.mb-0(style="font-size: 14px;") #[b(style="font-size: 13px;") Figura 6.] Interfaz de Custom Setup VirtualBox
+              figure
+                img.mx-auto(src="@/assets/curso/temas/57.svg",style="max-width: 462px;",alt="Pantalla en el asistente de instalación de VirtualBox para crear accesos directos y registros de asociaciones de archivos.")
+
+    .cont-titulo-decorativo.p-2.mt-5.mb-4
+      .row
+        .col-auto.pe-0
+          figure
+            img(src="@/assets/curso/temas/img-titulo-dec.svg")
+        .col.align-self-end
+          h3.mt-3.mb-0.me-2 Interfaz advertencia de red Virtual “Box”
+    
+    p.mb-4 El sistema pedirá aceptar el procedimiento de instalación.
+
+    .row.justify-content-center
+      .col-lg-8
+        .fondo-color-sistema-i.p-4.borde-10.pb-5
+          .row.justify-content-center
+            .col-lg-10
+              .titulo-sexto.color-acento-contenido
+                p.mb-0(style="font-size: 14px;") #[b(style="font-size: 13px;") Figura 7.] Interfaz advertencia de red VirtualBox
+              figure
+                img.mx-auto(src="@/assets/curso/temas/58.svg",style="max-width: 464px;",alt="Advertencia en el asistente de instalación de VirtualBox sobre la instalación de interfaces de red, que puede resetear la conexión de red temporalmente.")
+
+    .cont-titulo-decorativo.p-2.mt-5.mb-4
+      .row
+        .col-auto.pe-0
+          figure
+            img(src="@/assets/curso/temas/img-titulo-dec.svg")
+        .col.align-self-end
+          h3.mt-3.mb-0.me-2 Interfaz “Ready” “to” “install” Virtual “Box”
+    
+    p.mb-4 El sistema pedirá dar clic en “instalar” para continuar con el procedimiento.
+
+    .row.justify-content-center
+      .col-lg-8
+        .fondo-color-sistema-i.p-4.borde-10.pb-5
+          .row.justify-content-center
+            .col-lg-10
+              .titulo-sexto.color-acento-contenido
+                p.mb-0(style="font-size: 14px;") #[b(style="font-size: 13px;") Figura 8.] Interfaz #[em Ready to install] VirtualBox
+              figure
+                img.mx-auto(src="@/assets/curso/temas/59.svg",style="max-width: 466px;",alt="Pantalla del asistente de instalación de VirtualBox lista para iniciar la instalación, con la opción de revisar o cambiar configuraciones antes de comenzar.")
+
+    .cont-titulo-decorativo.p-2.mt-5.mb-4
+      .row
+        .col-auto.pe-0
+          figure
+            img(src="@/assets/curso/temas/img-titulo-dec.svg")
+        .col.align-self-end
+          h3.mt-3.mb-0.me-2 Interfaz advertencia de #[em red Virtual] “Box”
+    
+    p.mb-4 En algunas ocasiones, es posible que en los sistemas operativos Windows se presente o salte una advertencia de seguridad, indicando al usuario que se va a autorizar una instalación de un #[em software] de Oracle Corporation. Al momento que el sistema genere la notificación, se deberá indicar que se desea instalar para poder continuar.
+
+    .row.justify-content-center
+      .col-lg-8
+        .fondo-color-sistema-i.p-4.borde-10.pb-5
+          .row.justify-content-center
+            .col-lg-10
+              .titulo-sexto.color-acento-contenido
+                p.mb-0(style="font-size: 14px;") #[b(style="font-size: 13px;") Figura 9.] Interfaz advertencia de red VirtualBox
+              figure
+                img.mx-auto(src="@/assets/curso/temas/60.svg",style="max-width: 475px;",alt='Pantalla de seguridad de Windows solicitando confirmación para instalar el software de Oracle Corporation, con opciones de "Instalar" o "No instalar".')
+
+    .cont-titulo-decorativo.p-2.mt-5.mb-4
+      .row
+        .col-auto.pe-0
+          figure
+            img(src="@/assets/curso/temas/img-titulo-dec.svg")
+        .col.align-self-end
+          h3.mt-3.mb-0.me-2 Interfaz instalación completa Virtual “Box”
+    
+    p.mb-4 Una vez realizados estos pasos, el proceso de instalación es relativamente rápido. Luego, se encontrará una interfaz indicando la finalización de este proceso y la posibilidad de iniciar inmediatamente la ejecución de VirtualBox en la máquina #[em host].
+
+    .row.justify-content-center
+      .col-lg-8
+        .fondo-color-sistema-i.p-4.borde-10.pb-5
+          .row.justify-content-center
+            .col-lg-10
+              .titulo-sexto.color-acento-contenido
+                p.mb-0(style="font-size: 14px;") #[b(style="font-size: 13px;") Figura 10.] Interfaz instalación completa VirtualBox
+              figure
+                img.mx-auto(src="@/assets/curso/temas/61.svg",style="max-width: 473px;",alt='Pantalla final del asistente de instalación de VirtualBox, indicando que la instalación ha sido completada y ofreciendo la opción de iniciar VirtualBox inmediatamente.')
+
+    .cont-titulo-decorativo.p-2.mt-5.mb-4
+      .row
+        .col-auto.pe-0
+          figure
+            img(src="@/assets/curso/temas/img-titulo-dec.svg")
+        .col.align-self-end
+          h3.mt-3.mb-0.me-2 Interfaz Virtual “Box”
+    
+    p.mb-4 La herramienta de virtualización ha sido instalada. ¡Ahora la puedes utilizar!
+
+    .row.justify-content-center.mb-5
+      .col-lg-8
+        .fondo-color-sistema-i.p-4.borde-10.pb-5
+          .row.justify-content-center
+            .col-lg-10
+              .titulo-sexto.color-acento-contenido.ms-lg-4
+                p.mb-0(style="font-size: 14px;") #[b(style="font-size: 13px;") Figura 11.] Interfaz VirtualBox
+              figure
+                img.mx-auto(src="@/assets/curso/temas/62.svg",style="max-width: 623px;",alt='Pantalla de bienvenida del administrador de Oracle VM VirtualBox, que muestra varias herramientas como preferencias, importar, exportar, nueva y añadir.')
+    
+    #t_3_2.titulo-segundo.color-acento-contenido
+      h2 3.2 Alistamiento del sistema operativo a cargar en una máquina virtual
+
+    p.mb-4 Ahora es el momento de conocer sobre el alistamiento del sistema operativo a cargar en una máquina virtual:
+
+
+    .slider-personalizado-2.py-5.mb-4(data-aos="flip-up")
+      img.imgf-1(src="@/assets/curso/temas/63.png")
+      img.imgf-2(src="@/assets/curso/temas/64.png")
+      img.imgf-3(src="@/assets/curso/temas/65.png")
+      .slider-personalizado-2__contenido.p-3.pe-lg-5.pt-5
+        SlyderA(tipo="b")
+          .row.justify-content-center
+            .col-lg-11
+              .row 
+                .col-lg-5.mb-4.mb-lg-0
+                  h4.mb-4 Descargar Ubuntu
+                  p.mb-0 Es momento de abordar la virtualización de un sistema operativo “Linux” de distribución “Ubuntu”, por lo cual se debe realizar el proceso de descarga del mismo desde la página oficial #[a.link-p-1(href="www.ubuntu.com" target="_blank") www.ubuntu.com #[i.fas.fa-external-link-alt]], ingresando a la sección de descargas.
+                .col-lg-7
+                  figure
+                    img.mx-auto(src="@/assets/curso/temas/66.png",style="max-width: 610px;",alt="Captura de pantalla de la página principal de Ubuntu.")
+          .row.justify-content-center
+            .col-lg-11
+              .row
+                .col-lg-5.mb-4.mb-lg-0
+                  h4.mb-4 Seleccionar distribución
+                  p.mb-0 Al ingresar a la página oficial, se puede realizar la descarga de diferentes tipos de distribuciones del sistema operativo, esto en diferentes versiones, facilitando el acceso a la documentación oficial. En este punto el sistema detecta la arquitectura del procesador de la máquina desde donde se genera la descarga. 
+                .col-lg-7
+                  figure
+                    img.mx-auto(src="@/assets/curso/temas/67.png",style="max-width: 610px;",alt="Captura de pantalla de la sección de descargas de Ubuntu que presenta opciones para descargar Ubuntu Desktop, Ubuntu Server, Ubuntu para IoT y Ubuntu Cloud.")
+          .row.justify-content-center
+            .col-lg-11
+              .row
+                .col-lg-5.mb-4.mb-lg-0
+                  h4.mb-4 Requerimientos mínimos
+                  p.mb-0 Ahora es necesario que desde la página se indique cuáles son los requerimientos mínimos recomendados para un proceso de instalación, estos deben leerse antes de iniciar el proceso de instalación, de esta manera podrá asegurarse el éxito del mismo.
+                .col-lg-7
+                  figure
+                    img.mx-auto(src="@/assets/curso/temas/68.png",style="max-width: 610px;",alt="Captura de pantalla de la página de descarga de Ubuntu Desktop, específicamente para la versión 20.04.2.0 LTS.")
+
+    .row.mb-5
+      .col-auto.d-none.d-md-block 
+        figure.mb-4.mb-lg-0
+          img.mx-auto(src="@/assets/curso/temas/1.svg",style="max-width: 100px;")
+      .col 
+        p.mb-0 En algunas ocasiones, es posible que en los sistemas operativos #[em Windows] se presente o salte una advertencia de seguridad, indicando al usuario que se va a autorizar una instalación de un #[em software] de #[em Oracle Corporation]. Al momento que el sistema genere la notificación, se deberá indicar que se desea instalar para poder continuar.
+    
+    p(style="color: red;") falta seccion para descargar material
 
 </template>
 
