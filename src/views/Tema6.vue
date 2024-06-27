@@ -2,14 +2,14 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 6
       h1 Docker
     
-    p.mb-4 Es una de las plataformas de #[em software] más ampliamente utilizadas en el mundo para la gestión de contenedores. A continuación, se dará a conocer el proceso de instalación:
+    p.mb-4(data-aos="fade") Es una de las plataformas de #[em software] más ampliamente utilizadas en el mundo para la gestión de contenedores. A continuación, se dará a conocer el proceso de instalación:
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="flip-up")
       .col-lg-10
         .fondo-personalizado-1.no-tam-full.f7
           img.position-absolute(src="@/assets/curso/temas/78.svg",style="max-width: 119px;right: 0;top: 20%;")
@@ -53,7 +53,7 @@
                     img.mx-auto(src="@/assets/curso/temas/85.png",style="max-width: 492px;",alt="Imagen de la Finalización instalación paquete de actualización WSL2 Linux Kernel para máquinas 64x, señala la opción finish.")
            
      
-    .row.mb-4
+    .row.mb-4(data-aos="fade")
       .col-auto.d-none.d-md-block 
         figure
           img.mx-auto(src="@/assets/curso/temas/1.svg",style="max-width: 85px;")
@@ -78,9 +78,9 @@
               br
               | PS C:\Users\ADHIN> ws1-set-default-version 2
 
-    p.mb-4 Una vez finalizados los pasos anteriores, Docker debe poder ejecutarse sin ningún tipo de error o advertencia.
+    p.mb-4(data-aos="fade-left") Una vez finalizados los pasos anteriores, Docker debe poder ejecutarse sin ningún tipo de error o advertencia.
 
-    .row.justify-content-center.mb-4
+    .row.justify-content-center.mb-4(data-aos="zoom-in-out")
       .col-lg-8
         .fondo-color-sistema-i.px-4.py-3.borde-10.pb-5
           .row.justify-content-center
@@ -91,13 +91,13 @@
                 img.mx-auto(src="@/assets/curso/temas/69.svg",style="max-width: 610px;",alt="Pantalla de inicio de Docker con un mensaje emergente que ofrece consejos semanales y la opción de ver más detalles sobre la visibilidad de las actividades del equipo.")
     
     .row.mb-4
-      .col-lg-9.mb-4.mb-lg-0
+      .col-lg-9.mb-4.mb-lg-0(data-aos="fade-right")
         p.mb-0 Adicionalmente, una vez finaliza exitosamente la instalación, el sistema ofrece un pequeño tutorial para el uso de la herramienta. Entre las acciones más comunes a realizar se encuentran las actividades de clonación de un repositorio, la construcción de una imagen a partir de esta clonación y su ejecución como contenedor de Docker. Se recomienda ejecutar el tutorial completo para así determinar que la instalación y configuración están bien definidas:
-      .col-lg-3
+      .col-lg-3(data-aos="fade-left")
         figure
           img.mx-auto(src="@/assets/curso/temas/70.svg",style="max-width: 295px;")
     
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="fade-up")
       .col-lg-10
         .fondo-personalizado-1.no-tam-full.f7
           img.position-absolute(src="@/assets/curso/temas/78.svg",style="max-width: 119px;right: 0;top: 20%;")
@@ -126,19 +126,19 @@
                     img.mx-auto(src="@/assets/curso/temas/89.png",style="max-width: 702px;",alt="Imagen que ilustra la manera de compartir contenedor en Docker Hub desde repositorio en Docker.")
         
 
-    #t_6_1.titulo-segundo.color-acento-contenido
+    #t_6_1.titulo-segundo.color-acento-contenido(data-aos="fade-down")
       h2 6.1 Docker Hub
     
     .row.mb-4
-      .col-lg-10.col-md-8
+      .col-lg-10.col-md-8(data-aos="fade-up")
         p.mb-0 Es un servicio proporcionado por la compañía Docker Inc donde se puede almacenar, compartir y extraer imágenes para crear contenedores de Docker. Este servicio requiere la creación de una cuenta de usuario y funciona muy similar a como lo hacen los repositorios de archivos en la nube. A continuación, se presenta cómo hacerlo.
-      .col-lg-2.col-md-4.mb-4.mb-md-0.order-first.order-md-last
+      .col-lg-2.col-md-4.mb-4.mb-md-0.order-first.order-md-last(data-aos="fade-down")
         .fondo-color-sistema-q.py-2.borde-10.d-flex.justify-content-center.align-items-center
           .bg-white.d-inline-flex.rounded-circle.p-3
             figure
               img.mx-auto(src="@/assets/curso/temas/71.svg",style="max-width: 54px;")
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="flip-up")
       .col-lg-10
         .fondo-personalizado-1.no-tam-full.f7
           img.position-absolute(src="@/assets/curso/temas/78.svg",style="max-width: 119px;right: 0;top: 20%;")
@@ -201,12 +201,12 @@
                         img.mx-auto(src="@/assets/curso/temas/95.png",style="max-width: 580px;",alt="Imagen que ilustra la visualización de imagen compartida desde repositorio en Docker.")
             
 
-    #t_6_2.titulo-segundo.color-acento-contenido
+    #t_6_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in-out")
       h2 6.2 Comandos de Docker
     
-    p.mb-4 En la siguiente tabla se presenta  algunos de los comandos más utilizados en el proceso de gestión de imágenes y contenedores usando la plataforma Docker.
+    p.mb-4(data-aos="fade") En la siguiente tabla se presenta  algunos de los comandos más utilizados en el proceso de gestión de imágenes y contenedores usando la plataforma Docker.
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="flip-up")
       .col-lg-10
         .fondo-color-sistema-i.px-4.py-3.pb-5
           .titulo-sexto.color-acento-contenido
@@ -252,17 +252,17 @@
                       td #[b docker search]
                       td Busca imágenes disponibles en Docker Hub para reutilización.
     
-    #t_6_3.titulo-segundo.color-acento-contenido
+    #t_6_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 6.3 Imágenes y contenedores #[em (containers)]
     
     .row.mb-5
-      .col-lg-10.col-md-8
+      .col-lg-10.col-md-8(data-aos="fade-right")
         p.mb-0 Una imagen es una especie de plantilla que usa el motor de Docker para la construcción de un contenedor. Es un archivo del sistema privado solo para contenedores y provee todos los archivos y códigos que el contenedor necesita. A su vez, un contenedor de Docker se puede considerar como la instancia donde se implementa todo lo descrito en una imagen de Docker, es decir, un contenedor se construye a partir de una imagen. Si se tuviera que hacer un paralelo con sistemas de virtualización con hipervisores, una imagen sería el equivalente a lo que representaría un archivo ISO y un contenedor sería el equivalente a una máquina virtual.
-      .col-lg-2.col-md-4.mb-4.mb-md-0.order-first.order-md-last
+      .col-lg-2.col-md-4.mb-4.mb-md-0.order-first.order-md-last(data-aos="fade-left")
         figure
           img.mx-auto(src="@/assets/curso/temas/72.svg",style="max-width: 190px;")
 
-    .row.justify-content-center.mb-4
+    .row.justify-content-center.mb-4(data-aos="zoom-in-out")
       .col-lg-8
         .fondo-color-sistema-i.px-4.py-3.pb-5
           .row.justify-content-center
@@ -273,9 +273,9 @@
                 img.mx-auto.d-none.d-lg-block(src="@/assets/curso/temas/73.svg",style="max-width: 610px;",alt="Diagrama comparativo entre el esquema tradicional de virtualización y el esquema de contenedores. El esquema tradicional incluye herramientas de virtualización con hipervisores y máquinas virtuales, mientras que el esquema de contenedores incluye imágenes de Docker y contenedores.")
                 img.mx-auto.d-lg-none(src="@/assets/curso/temas/75.svg",style="max-width: 434px;",alt="Diagrama comparativo entre el esquema tradicional de virtualización y el esquema de contenedores. El esquema tradicional incluye herramientas de virtualización con hipervisores y máquinas virtuales, mientras que el esquema de contenedores incluye imágenes de Docker y contenedores.")
     
-    p.mb-4 A continuación, se deberá realizar un ejemplo de imágenes y contenedores.
+    p.mb-4(data-aos="fade") A continuación, se deberá realizar un ejemplo de imágenes y contenedores.
 
-    .row.justify-content-center
+    .row.justify-content-center(data-aos="flip-up")
       .col-lg-10
         .p-4.fondo-personalizado-6.borde-11.mb-5(data-aos="flip-up")
           .row
@@ -291,12 +291,12 @@
                 span(style="color:initial;") Descargar
                 i.fas.fa-link(style="color:initial;")
     
-    #t_6_4.titulo-segundo.color-acento-contenido
+    #t_6_4.titulo-segundo.color-acento-contenido(data-aos="fade")
       h2 6.4 DockerFile
     
-    p.mb-4 Es un archivo de texto plano en el que se listan instrucciones que se pasan al motor de Docker para la automatización del proceso de construcción de imágenes y contenedores. Este archivo puede incluir instrucciones como las que se indican en la siguiente tabla.
+    p.mb-4(data-aos="fade-down") Es un archivo de texto plano en el que se listan instrucciones que se pasan al motor de Docker para la automatización del proceso de construcción de imágenes y contenedores. Este archivo puede incluir instrucciones como las que se indican en la siguiente tabla.
 
-    .row.justify-content-center.mb-4
+    .row.justify-content-center.mb-4(data-aos="fade-down")
       .col-lg-10
         .fondo-color-sistema-i.px-4.py-3.pb-5
           .titulo-sexto.color-acento-contenido
@@ -327,7 +327,7 @@
                       td #[b CMD]
                       td Fija un comando o proceso que se ejecutará cada vez que se ejecute un contenedor desde la nueva imagen.
 
-    p.mb-4 Para información más detallada, en el material complementario se encuentran los enlaces para la documentación de referencia de Docker sobre archivos Dockerfile y la documentación de Dockerfile para Windows.
+    p.mb-4(data-aos="fade-left") Para información más detallada, en el material complementario se encuentran los enlaces para la documentación de referencia de Docker sobre archivos Dockerfile y la documentación de Dockerfile para Windows.
 
     .row.justify-content-center
       .col-lg-10
@@ -345,7 +345,7 @@
                 span(style="color:initial;") Descargar
                 i.fas.fa-link(style="color:initial;")
 
-    p.mb-0 Para este caso, se creará una imagen con sistema operativo Ubuntu, con un servidor Apache funcionando por el puerto 80. En el caso de Windows, se puede utilizar el editor de texto que se considere más conveniente, pero deberá tener en cuenta la ubicación del archivo. Este deberá llamarse Dockerfile y, adicionalmente, no puede tener ninguna extensión.
+    p.mb-0(data-aos="fade") Para este caso, se creará una imagen con sistema operativo Ubuntu, con un servidor Apache funcionando por el puerto 80. En el caso de Windows, se puede utilizar el editor de texto que se considere más conveniente, pero deberá tener en cuenta la ubicación del archivo. Este deberá llamarse Dockerfile y, adicionalmente, no puede tener ninguna extensión.
     
   
 </template>
