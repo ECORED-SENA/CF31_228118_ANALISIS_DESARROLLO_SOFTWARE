@@ -9,8 +9,28 @@
     
     p.mb-4 Es una de las plataformas de #[em software] más ampliamente utilizadas en el mundo para la gestión de contenedores. A continuación, se dará a conocer el proceso de instalación:
 
-    p(style="color: red;") Aqui va un componente de pasos
+    .row.justify-content-center.mb-5
+      .col-lg-10
+        .fondo-personalizado-1.no-tam-full.f7
+          img.position-absolute(src="@/assets/curso/temas/78.svg",style="max-width: 119px;right: 0;top: 20%;")
+          img.position-absolute(src="@/assets/curso/temas/79.svg",style="max-width: 119px;bottom: 0;left: 0;")
+          .fondo-personalizado-1__contenido.p-4
+            PasosB.pasos-personalizado-1
+              .row.justify-content-center 
+                .col-lg-11(titulo="Paso")
+                  p.mb-4 Página oficial de Docker para instalar Windows.
+                  figure.mb-0.mb-lg-5
+                    img.mx-auto(src="@/assets/curso/temas/77.png",style="max-width: 702px;")
+              div(titulo="Paso")
+                p.mb-4 Página oficial de Docker para instalar Windows.
+                figure
+                  img.mx-auto(src="@/assets/curso/temas/77.png",style="max-width: 702px;")
+              div(titulo="Paso")
+                p.mb-4 Página oficial de Docker para instalar Windows.
+                figure
+                  img.mx-auto(src="@/assets/curso/temas/77.png",style="max-width: 702px;")
 
+     
     .row.mb-4
       .col-auto.d-none.d-md-block 
         figure
@@ -140,8 +160,82 @@
               .titulo-sexto.color-acento-contenido
                 p.mb-0(style="font-size: 14px;") #[b(style="font-size: 13px;") Figura 14.] Equivalencia de elementos entre modelos con hipervisores y contenedores
               figure
-                img.mx-auto(src="@/assets/curso/temas/73.svg",style="max-width: 610px;",alt="Diagrama comparativo entre el esquema tradicional de virtualización y el esquema de contenedores. El esquema tradicional incluye herramientas de virtualización con hipervisores y máquinas virtuales, mientras que el esquema de contenedores incluye imágenes de Docker y contenedores.")
+                img.mx-auto.d-none.d-lg-block(src="@/assets/curso/temas/73.svg",style="max-width: 610px;",alt="Diagrama comparativo entre el esquema tradicional de virtualización y el esquema de contenedores. El esquema tradicional incluye herramientas de virtualización con hipervisores y máquinas virtuales, mientras que el esquema de contenedores incluye imágenes de Docker y contenedores.")
+                img.mx-auto.d-lg-none(src="@/assets/curso/temas/75.svg",style="max-width: 434px;",alt="Diagrama comparativo entre el esquema tradicional de virtualización y el esquema de contenedores. El esquema tradicional incluye herramientas de virtualización con hipervisores y máquinas virtuales, mientras que el esquema de contenedores incluye imágenes de Docker y contenedores.")
+    
+    p.mb-4 A continuación, se deberá realizar un ejemplo de imágenes y contenedores.
 
+    .row.justify-content-center
+      .col-lg-10
+        .p-4.fondo-personalizado-6.borde-11.mb-5(data-aos="flip-up")
+          .row
+            .col-auto(style="margin: auto;")
+              .burbuja-1.fondo-color-acento-contenido.mx-auto.mb-3.mb-md-0
+                figure.p-1
+                  img.mx-auto(src="@/assets/curso/temas/74.svg",style="max-width: 47px;")
+            .col-lg.mb-4.mb-md-0.col-md-6
+              h4.color-color-acento-contenido Ejemplo de imágenes y contenedores
+              p.mb-0.text-white Este PDF nos presenta cómo crear en nuestra máquina local un servidor de Ubuntu con Mysql usando la tecnología de contenedores.
+            .col-md-auto.text-center(style="place-self:center;")
+              a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexo2.pdf')" target="_blank")
+                span(style="color:initial;") Descargar
+                i.fas.fa-link(style="color:initial;")
+    
+    #t_6_4.titulo-segundo.color-acento-contenido
+      h2 6.4 DockerFile
+    
+    p.mb-4 Es un archivo de texto plano en el que se listan instrucciones que se pasan al motor de Docker para la automatización del proceso de construcción de imágenes y contenedores. Este archivo puede incluir instrucciones como las que se indican en la siguiente tabla.
+
+    .row.justify-content-center.mb-4
+      .col-lg-10
+        .fondo-color-sistema-i.px-4.py-3.pb-5
+          .titulo-sexto.color-acento-contenido
+            p.mb-0(style="font-size: 14px;") #[b(style="font-size: 13px;") Tabla 2.] Sentencias comunes en un archivo Dockerfile
+
+          .row.justify-content-center
+            .col-lg-10
+              .tabla-a.tabla-personalizada-1
+                table
+                  thead
+                    tr
+                      th(style="width: 200px;") Instrucción
+                      th(style="max-width: 200px;") Significado
+                  tbody
+                    tr
+                      td #[b FROM]
+                      td Le indica la imagen inicial a descargar y a partir de la cual se espera montar el contenedor a construir. Esta sentencia es obligatoria ya que todos los contenedores se construyen de imágenes.
+                    tr
+                      td #[b MAINTAINER]
+                      td Nombre de la persona que está creando el archivo.
+                    tr
+                      td #[b RUN]
+                      td Ejecución de comandos específicos sobre la imagen descargada en el FROM.
+                    tr
+                      td #[b EXPOSE]
+                      td Apertura de puertos en el contenedor.
+                    tr
+                      td #[b CMD]
+                      td Fija un comando o proceso que se ejecutará cada vez que se ejecute un contenedor desde la nueva imagen.
+
+    p.mb-4 Para información más detallada, en el material complementario se encuentran los enlaces para la documentación de referencia de Docker sobre archivos Dockerfile y la documentación de Dockerfile para Windows.
+
+    .row.justify-content-center
+      .col-lg-10
+        .p-4.fondo-personalizado-6.borde-11.mb-4(data-aos="flip-up")
+          .row
+            .col-auto(style="margin: auto;")
+              .burbuja-1.fondo-color-acento-contenido.mx-auto.mb-3.mb-md-0
+                figure.p-1
+                  img.mx-auto(src="@/assets/curso/temas/74.svg",style="max-width: 47px;")
+            .col-lg.mb-4.mb-md-0.col-md-6
+              h4.color-color-acento-contenido Automatizar el proceso de construcción y configuración de una imagen utilizando un archivo Dockerfile
+              p.mb-0.text-white Este PDF presenta cómo automatizar el proceso de construcción y configuración de una imagen utilizando un archivo DockerFile, en lugar de ejecutar comandos manualmente.
+            .col-md-auto.text-center(style="place-self:center;")
+              a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexo3.pdf')" target="_blank")
+                span(style="color:initial;") Descargar
+                i.fas.fa-link(style="color:initial;")
+
+    p.mb-0 Para este caso, se creará una imagen con sistema operativo Ubuntu, con un servidor Apache funcionando por el puerto 80. En el caso de Windows, se puede utilizar el editor de texto que se considere más conveniente, pero deberá tener en cuenta la ubicación del archivo. Este deberá llamarse Dockerfile y, adicionalmente, no puede tener ninguna extensión.
     
   
 </template>

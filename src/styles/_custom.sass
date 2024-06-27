@@ -79,6 +79,8 @@
   border-radius: 5px !important
 .borde-10
   border-radius: 10px !important
+.borde-11
+  border-radius: 11px !important
 .borde-20
   border-radius: 20px !important
 
@@ -162,11 +164,35 @@
         right: -260px
     &:before
       background-color: $color-sistema-n
+  &.f6
+    overflow-y: clip
+    .img-dec-1
+      max-width: 92px
+      top: 12%
+      right: 0
+      @media screen and (max-width: $bp-max-md)
+        top: 15%
+    &:before
+      border-radius: 10px 
+      background-color: $color-sistema-l
+      top: 20px
+      bottom: 20px
+      @media screen and (max-width: $bp-max-lg)
+        top: 0
+        bottom: 0
+  &.f7
+    &:before
+      background-color: $color-sistema-p
   &.borde-10
     &:before
       border-radius: 10px 
   &__contenido
     position: relative
+
+
+.fondo-personalizado-6
+  background: rgb(146,41,238)
+  background: linear-gradient(180deg, rgba(146,41,238,1) 0%, rgba(98,17,170,1) 27%, rgba(52,9,90,1) 100%)
 
 //color fondos
 .fondo-color-sistema-h
@@ -199,6 +225,9 @@
 //colores
 .color-sistema-o
   color: $color-sistema-o
+
+.color-color-acento-contenido
+  color: $color-acento-contenido
 
 //listas
 .list-1
@@ -318,3 +347,55 @@
     border-top: none
     background-color: $color-primario
     color: white
+
+//burbujas
+.burbuja-1
+  display: inline-block
+  padding: 0.6rem
+  border-radius: 50%
+  -webkit-box-shadow: 0px 0px 6px 0px rgba(255,255,255,0.66)
+  -moz-box-shadow: 0px 0px 6px 0px rgba(255,255,255,0.66)
+  box-shadow: 0px 0px 6px 0px rgba(255,255,255,0.66)
+
+//pasos
+.pasos-personalizado-1
+  .pasos-b__header
+    align-items: center
+  .pasos-b__header__item__line-container
+    margin-bottom: 0
+  .pasos-b__header__item:first-child
+    .pasos-b__header__item__line-container:before
+      background-color: transparent
+  .pasos-b__header__item__line-container:after,.pasos-b__header__item__line-container:before
+    background-color: white
+  .pasos-b__header__item--before
+    .pasos-b__header__item__line-container:after,.pasos-b__header__item__line-container:before
+      background-color: $color-acento-contenido
+    .pasos-b__header__item__dot
+      background-color: $color-acento-contenido
+      i
+        display: none
+      span
+        display: block
+  .pasos-b__header__item--active
+    .pasos-b__header__item__dot
+      background-color: $color-acento-contenido
+      span
+        color: $color-sistema-texto
+    .pasos-b__header__item__line-container:before
+      background-color: $color-acento-contenido
+  .pasos-b__header__item__dot
+    background-color: white
+    border: none
+    min-width: 26px
+    max-width: 26px
+    min-height: 26px
+    max-height: 26px
+  .pasos-b__header__btn--right,.pasos-b__header__btn--left
+    background-color: $color-acento-botones
+    min-width: 40px
+    max-width: 40px
+    min-height: 40px
+    max-height: 40px
+    &:hover
+      border-color: #cccccc
