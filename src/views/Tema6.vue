@@ -16,20 +16,42 @@
           img.position-absolute(src="@/assets/curso/temas/79.svg",style="max-width: 119px;bottom: 0;left: 0;")
           .fondo-personalizado-1__contenido.p-4
             PasosB.pasos-personalizado-1
-              .row.justify-content-center 
-                .col-lg-11(titulo="Paso")
+              .row.justify-content-center(titulo="Paso")
+                .col-lg-11
                   p.mb-4 Página oficial de Docker para instalar Windows.
                   figure.mb-0.mb-lg-5
-                    img.mx-auto(src="@/assets/curso/temas/77.png",style="max-width: 702px;")
-              div(titulo="Paso")
-                p.mb-4 Página oficial de Docker para instalar Windows.
-                figure
-                  img.mx-auto(src="@/assets/curso/temas/77.png",style="max-width: 702px;")
-              div(titulo="Paso")
-                p.mb-4 Página oficial de Docker para instalar Windows.
-                figure
-                  img.mx-auto(src="@/assets/curso/temas/77.png",style="max-width: 702px;")
-
+                    img.mx-auto(src="@/assets/curso/temas/80.png",style="max-width: 700px;",alt="Imagen de la página oficial de Docker que lista los requerimientos del sistema para instalar Windows.")
+              .row.justify-content-center(titulo="Paso")
+                .col-lg-11
+                  p.mb-4 Configuración Instalación Docker Desktop 3.4.0.
+                  figure.mb-0.mb-lg-5
+                    img.mx-auto(src="@/assets/curso/temas/77.png",style="max-width: 702px;",alt="Ilustración de la configuración Instalación Docker Desktop 3.4.0., es importante tener en cuenta que una vez terminada la descarga se debe ejecutar el instalador de docker el cual iniciará con una ventana de configuración donde se podrá seleccionar la instalación de componentes adicionales requeridos y el generar iconos de acceso desde el escritorio de la máquina.")
+              .row.justify-content-center(titulo="Paso")
+                .col-lg-11
+                  p.mb-4 Instalación Docker Desktop 3.4.0.
+                  figure.mb-0.mb-lg-5
+                    img.mx-auto(src="@/assets/curso/temas/81.png",style="max-width: 701px;",alt="Ilustración de la Instalación Docker Desktop 3.4.0. después de cerrar la ventana de configuración deseada se inicia el proceso de instalación el cual al finalizar solicitará el reinicio del sistema operativo como se muestra en la figura 4 y realizará unas actualizaciones finales mientras reinicia la máquina.")
+              .row.justify-content-center(titulo="Paso")
+                .col-lg-11
+                  p.mb-4 Advertencia sobre falta de elementos de instalación.
+                  figure.mb-0.mb-lg-5
+                    img.mx-auto(src="@/assets/curso/temas/82.png",style="max-width: 701px;",alt="Pantalla de advertencia sobre falta de elementos de instalación. Es de importancia señalar que al reiniciar el sistema Docker se ejecuta en background e informará si existe algún problema en caso de que el sistema operativo no cumpla con las dependencias requeridas. Docker le indicará la falta de los componentes que no pueda actualizar para realizar el proceso manual. En el ejemplo mostrado se requiere la instalación manual de WSL 2 Linux Kernel el cual ya no viene integrado en el instalador Docker para Windows 10 (Windows, 2021). Luego de realizar esta instalación manual deberá reiniciar nuevamente la máquina.")
+              .row.justify-content-center(titulo="Paso")
+                .col-lg-11
+                  p.mb-4 Instalador Docker Desktop 3.4.0.
+                  figure.mb-0.mb-lg-5
+                    img.mx-auto(src="@/assets/curso/temas/83.png",style="max-width: 701px;",alt="Imagen que muestra el Instalador Docker Desktop 3.4.0. en la que se debe verificar la opción de descarga el paquete ARM64; al respecto cabe señalar que sobre el mismo mensaje de error se despliega el link de acceso a la documentación oficial para finalizar el proceso de ajuste requerido para instalar Docker completamente en Windows.")
+              .row.justify-content-center(titulo="Paso")
+                .col-lg-11
+                  p.mb-4 Inicio instalación paquete de actualización WSL2 Linux Kernel para máquinas 64x. 
+                  figure.mb-0.mb-lg-5
+                    img.mx-auto(src="@/assets/curso/temas/84.png",style="max-width: 491px;",alt="Imagen de la ventana de inicio instalación paquete de actualización WSL2 Linux Kernel para máquinas 64x. Una vez descargado el paquete msi indicado en la documentación oficial se realiza la instalación respectiva.")
+              .row.justify-content-center(titulo="Paso")
+                .col-lg-11
+                  p.mb-4 Finalización instalación paquete de actualización WSL2 Linux Kernel para máquinas 64x.
+                  figure.mb-0.mb-lg-5
+                    img.mx-auto(src="@/assets/curso/temas/85.png",style="max-width: 492px;",alt="Imagen de la Finalización instalación paquete de actualización WSL2 Linux Kernel para máquinas 64x, señala la opción finish.")
+           
      
     .row.mb-4
       .col-auto.d-none.d-md-block 
@@ -68,19 +90,46 @@
               figure
                 img.mx-auto(src="@/assets/curso/temas/69.svg",style="max-width: 610px;",alt="Pantalla de inicio de Docker con un mensaje emergente que ofrece consejos semanales y la opción de ver más detalles sobre la visibilidad de las actividades del equipo.")
     
-    .row 
+    .row.mb-4
       .col-lg-9.mb-4.mb-lg-0
         p.mb-0 Adicionalmente, una vez finaliza exitosamente la instalación, el sistema ofrece un pequeño tutorial para el uso de la herramienta. Entre las acciones más comunes a realizar se encuentran las actividades de clonación de un repositorio, la construcción de una imagen a partir de esta clonación y su ejecución como contenedor de Docker. Se recomienda ejecutar el tutorial completo para así determinar que la instalación y configuración están bien definidas:
       .col-lg-3
         figure
           img.mx-auto(src="@/assets/curso/temas/70.svg",style="max-width: 295px;")
     
-    p(style="color: red;") componente de pasos aqui
+    .row.justify-content-center.mb-5
+      .col-lg-10
+        .fondo-personalizado-1.no-tam-full.f7
+          img.position-absolute(src="@/assets/curso/temas/78.svg",style="max-width: 119px;right: 0;top: 20%;")
+          img.position-absolute(src="@/assets/curso/temas/79.svg",style="max-width: 119px;bottom: 0;left: 0;")
+          .fondo-personalizado-1__contenido.p-4
+            PasosB.pasos-personalizado-1
+              .row.justify-content-center(titulo="Paso")
+                .col-lg-11
+                  p.mb-4 Acción de compartir contenedor en Docker Hub.
+                  figure
+                    img.mx-auto(src="@/assets/curso/temas/86.png",style="max-width: 702px;",alt="Imagen que ilustra la manera de clonar repositorio en Docker.")
+              .row.justify-content-center(titulo="Paso")
+                .col-lg-11
+                  p.mb-4 Acción de construir imagen desde repositorio.
+                  figure
+                    img.mx-auto(src="@/assets/curso/temas/87.png",style="max-width: 702px;",alt="Imagen que ilustra la manera de construir imagen desde repositorio en Docker.")
+              .row.justify-content-center(titulo="Paso")
+                .col-lg-11
+                  p.mb-4 Acción de construir contenedor desde imagen.
+                  figure
+                    img.mx-auto(src="@/assets/curso/temas/88.png",style="max-width: 702px;",alt="Imagen que ilustra la manera de construir contenedor desde imagen desde repositorio en Docker.")
+              .row.justify-content-center(titulo="Paso")
+                .col-lg-11
+                  p.mb-4 Acción de compartir contenedor en Docker Hub.
+                  figure
+                    img.mx-auto(src="@/assets/curso/temas/89.png",style="max-width: 702px;",alt="Imagen que ilustra la manera de compartir contenedor en Docker Hub desde repositorio en Docker.")
+        
 
     #t_6_1.titulo-segundo.color-acento-contenido
       h2 6.1 Docker Hub
     
-    .row 
+    .row.mb-4
       .col-lg-10.col-md-8
         p.mb-0 Es un servicio proporcionado por la compañía Docker Inc donde se puede almacenar, compartir y extraer imágenes para crear contenedores de Docker. Este servicio requiere la creación de una cuenta de usuario y funciona muy similar a como lo hacen los repositorios de archivos en la nube. A continuación, se presenta cómo hacerlo.
       .col-lg-2.col-md-4.mb-4.mb-md-0.order-first.order-md-last
@@ -89,7 +138,68 @@
             figure
               img.mx-auto(src="@/assets/curso/temas/71.svg",style="max-width: 54px;")
 
-    p(style="color: red;") componente de pasos aqui
+    .row.justify-content-center.mb-5
+      .col-lg-10
+        .fondo-personalizado-1.no-tam-full.f7
+          img.position-absolute(src="@/assets/curso/temas/78.svg",style="max-width: 119px;right: 0;top: 20%;")
+          img.position-absolute(src="@/assets/curso/temas/79.svg",style="max-width: 119px;bottom: 0;left: 0;")
+          .fondo-personalizado-1__contenido.p-4
+            PasosB.pasos-personalizado-1
+              .row.justify-content-center(titulo="Paso")
+                .col-lg-11
+                  .row.mb-0.mb-lg-5
+                    .col-lg-5
+                      p.mb-0.fw-bold Crear una cuenta
+                      p.mb-0 Para crear una cuenta de usuario debe acceder a la siguiente dirección #[a.link-p-1(href="https://hub.docker.com" target="_blank") https://hub.docker.com #[i.fas.fa-external-link-alt]] y diligenciar el formulario indicando el ID, email y #[em password].
+                    .col-lg-7
+                      figure
+                        img.mx-auto(src="@/assets/curso/temas/90.png",style="max-width: 580px;",alt="Imagen que ilustra la pantalla inicial para crear una cuenta en Docker. Para crear una cuenta de usuario debe acceder a la siguiente dirección https://hub.docker.com y diligenciar el formulario indicando el ID, email y password.")
+              .row.justify-content-center(titulo="Paso")
+                .col-lg-11
+                  .row.mb-0.mb-lg-5
+                    .col-lg-5
+                      p.mb-0.fw-bold Seleccionar un plan
+                      p.mb-0 Dependiendo de sus necesidades debe seleccionar un plan. Se ofrece la versión libre, la profesional y los equipos para organizaciones. Se recomienda usar la opción gratuita para el proceso de aprendizaje.
+                    .col-lg-7
+                      figure
+                        img.mx-auto(src="@/assets/curso/temas/91.png",style="max-width: 580px;",alt="Imagen que ilustra la ventana para seleccionar un plan en Docker. Luego dependiendo de sus necesidades debe seleccionar un plan. Se ofrece la versión libre, la profesional y los equipos para organizaciones. Se recomienda usar la opción gratuita para el proceso de aprendizaje.")
+              .row.justify-content-center(titulo="Paso")
+                .col-lg-11
+                  .row.mb-0.mb-lg-5
+                    .col-lg-5
+                      p.mb-0.fw-bold Confirmación de cuenta
+                      p.mb-0 Finalizado este proceso, se envía al correo electrónico registrado en la creación del usuario de Docker Hub un mensaje de confirmación que se debe verificar para activar la cuenta y tener mecanismos de recuperación en caso de que se pierdan las credenciales de acceso.
+                    .col-lg-7
+                      figure
+                        img.mx-auto(src="@/assets/curso/temas/92.png",style="max-width: 580px;",alt="Imagen que ilustra la ventana siguiente en la selección de un plan en Docker. Finalizado este proceso se envía al correo electrónico registrado en la creación del usuario de Docker Hub un mensaje de confirmación que se debe verificar para activar la cuenta y tener mecanismos de recuperación en caso de que perdamos las credenciales de acceso.")
+              .row.justify-content-center(titulo="Paso")
+                .col-lg-11
+                  .row.mb-0.mb-lg-5
+                    .col-lg-5
+                      p.mb-0.fw-bold Ingresar a Docker Hub
+                      p.mb-0 Cuando se tiene una cuenta de usuario en Docker Hub, es posible realizar el último procedimiento del tutorial de Docker mencionado en la sesión anterior. Para esto, basta con ingresar las credenciales del usuario.
+                    .col-lg-7
+                      figure
+                        img.mx-auto(src="@/assets/curso/temas/93.png",style="max-width: 580px;",alt="Imagen que ilustra la ventana de ingreso a Docker. Cuando se tiene una cuenta de usuario en Docker hub es posible realizar el último procedimiento del tutorial de Docker que se menciona en la sesión anterior. Para esto bastará solo con ingresar las credenciales del usuario.")
+              .row.justify-content-center(titulo="Paso")
+                .col-lg-11
+                  .row.mb-0.mb-lg-5
+                    .col-lg-5
+                      p.mb-0.fw-bold Compartir contenedor en Docker Hub2
+                      p.mb-0 En esta última parte, el usuario podrá crear y reutilizar la información del repositorio las veces que lo necesite, asociando la cuenta de Docker Hub, la cual se puede gestionar directamente desde la página de navegación.
+                    .col-lg-7
+                      figure
+                        img.mx-auto(src="@/assets/curso/temas/94.png",style="max-width: 580px;",alt="Imagen que ilustra la manera de compartir contenedor en Docker Hub2 desde repositorio en Docker. En esta última parte el usuario podrá crear y reutilizar la información del repositorio las veces que lo necesite, asociando la cuenta Docker Hub, la cual se puede visualizar directamente desde la página de navegación.")
+              .row.justify-content-center(titulo="Paso")
+                .col-lg-11
+                  .row.mb-0.mb-lg-5
+                    .col-lg-5
+                      p.mb-0.fw-bold Visualización de imagen compartida
+                      p.mb-0 Una vez asociada la cuenta de Docker Hub, el usuario puede crear y compartir imágenes de contenedores. Para visualizar una imagen compartida, se puede acceder al repositorio de Docker Hub desde la página de navegación.
+                    .col-lg-7
+                      figure
+                        img.mx-auto(src="@/assets/curso/temas/95.png",style="max-width: 580px;",alt="Imagen que ilustra la visualización de imagen compartida desde repositorio en Docker.")
+            
 
     #t_6_2.titulo-segundo.color-acento-contenido
       h2 6.2 Comandos de Docker

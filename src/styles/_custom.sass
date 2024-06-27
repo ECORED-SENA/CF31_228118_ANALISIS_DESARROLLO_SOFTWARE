@@ -359,43 +359,22 @@
 
 //pasos
 .pasos-personalizado-1
-  .pasos-b__header
-    align-items: center
-  .pasos-b__header__item__line-container
-    margin-bottom: 0
-  .pasos-b__header__item:first-child
-    .pasos-b__header__item__line-container:before
-      background-color: transparent
-  .pasos-b__header__item__line-container:after,.pasos-b__header__item__line-container:before
-    background-color: white
-  .pasos-b__header__item--before
-    .pasos-b__header__item__line-container:after,.pasos-b__header__item__line-container:before
-      background-color: $color-acento-contenido
-    .pasos-b__header__item__dot
-      background-color: $color-acento-contenido
-      i
-        display: none
-      span
-        display: block
+  .pasos-b__header__item__dot
+    border-width: 1px
+    border-color: $color-primario
   .pasos-b__header__item--active
     .pasos-b__header__item__dot
-      background-color: $color-acento-contenido
-      span
-        color: $color-sistema-texto
-    .pasos-b__header__item__line-container:before
-      background-color: $color-acento-contenido
-  .pasos-b__header__item__dot
-    background-color: white
-    border: none
-    min-width: 26px
-    max-width: 26px
-    min-height: 26px
-    max-height: 26px
+      background-color: $color-primario
+      border-color: $color-primario
+  .pasos-b__header__item--before
+    .pasos-b__header__item__dot
+      background-color: #25AE72
+      border-color: #25AE72
+  .pasos-b__header__item__line-container:after,.pasos-b__header__item__line-container:before
+    height: 1px
   .pasos-b__header__btn--right,.pasos-b__header__btn--left
-    background-color: $color-acento-botones
-    min-width: 40px
-    max-width: 40px
-    min-height: 40px
-    max-height: 40px
-    &:hover
-      border-color: #cccccc
+    background-color: #FFCE00
+    border: none
+    -webkit-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.16)
+    -moz-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.16)
+    box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.16)
