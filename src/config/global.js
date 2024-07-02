@@ -3,7 +3,7 @@ export default {
     componenteFormativo:
       'Tecnologías de virtualización: desde servidores hasta contenedores',
     descripcionCurso:
-      'En este componente formativo se aborda el tema de virtualización, sus diferentes tipos y algunas herramientas útiles para este proceso. Esta virtualización se comprende como una arquitectura de software que posibilita la ejecución de varios sistemas operativos de servidor como invitado en host de servidor físico específico.',
+      'En este componente formativo se aborda el tema de virtualización, sus diferentes tipos y algunas herramientas útiles para este proceso. Esta virtualización se comprende como una arquitectura de <em>software</em> que posibilita la ejecución de varios sistemas operativos de servidor como invitado en host de servidor físico específico.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -221,7 +221,7 @@ export default {
         'tipo de archivos que contiene información requerida para la ejecución de ciertas aplicaciones.',
     },
     {
-      termino: 'Data center',
+      termino: '<em>Data center</em>',
       significado:
         'es un espacio donde se aloja un conjunto de equipos e infraestructura con el fin de brindar servicios a un grupo específico de usuarios.',
     },
@@ -333,7 +333,7 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Luis Gabriel Urueta Alvarez',
+          nombre: 'Jaime Hernán Tejada Llano',
           cargo: 'Validador de Recursos Educativos Digitales',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },

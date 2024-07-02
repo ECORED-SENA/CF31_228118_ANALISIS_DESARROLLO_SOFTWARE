@@ -101,8 +101,8 @@
     #t_3_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 3.1 Ejemplo de virtualización
     
-    p.mb-0(data-aos="fade") A continuación, se presenta una secuencia a modo de ejemplo de cómo realizar un proceso de virtualización de una máquina con sistema operativo #[em Linux] en una máquina con sistema operativo Windows. Para esta ilustración, se utilizará una máquina #[em host] con sistema operativo Windows 10 Home de 64 bits. Se virtualizará y ejecutará una máquina virtual con sistema operativo Ubuntu desktop 20.04, por medio de la herramienta Oracle VirtualBox.
-    p.mb-0 A continuación, se detallan las acciones realizables durante la instalación de #[em VirtualBox].
+    p.mb-0(data-aos="fade") A continuación, se presenta una secuencia a modo de ejemplo de cómo realizar un proceso de virtualización de una máquina con sistema operativo Linux en una máquina con sistema operativo Windows. Para esta ilustración, se utilizará una máquina #[em host] con sistema operativo Windows 10 Home de 64 bits. Se virtualizará y ejecutará una máquina virtual con sistema operativo Ubuntu desktop 20.04, por medio de la herramienta Oracle VirtualBox.
+    p.mb-0 A continuación, se detallan las acciones realizables durante la instalación de VirtualBox.
 
     .cont-titulo-decorativo.p-2.mt-5.mb-4(data-aos="fade-left")
       .row
@@ -112,7 +112,7 @@
         .col.align-self-end
           h3.mt-3.mb-0.me-2 Instalación de VirtualBox
     
-    p.mb-5(data-aos="fade-up") #[em VirtualBox] es una de las herramientas de virtualización de servidores más utilizadas, debido a que permite trabajar desde diversos sistemas operativos como #[em host] y, de igual forma, virtualizar una gran cantidad de sistemas operativos diferentes. Adicionalmente, es un #[em software] de uso gratuito. Para hacer el proceso de instalación, es necesario ir directamente a la página oficial de la herramienta, en la sección de descargas, y luego seleccionar el tipo de sistema operativo del equipo #[em host].
+    p.mb-5(data-aos="fade-up") VirtualBox es una de las herramientas de virtualización de servidores más utilizadas, debido a que permite trabajar desde diversos sistemas operativos como #[em host] y, de igual forma, virtualizar una gran cantidad de sistemas operativos diferentes. Adicionalmente, es un #[em software] de uso gratuito. Para hacer el proceso de instalación, es necesario ir directamente a la página oficial de la herramienta, en la sección de descargas, y luego seleccionar el tipo de sistema operativo del equipo #[em host].
 
     .row.justify-content-center(data-aos="fade-up")
       .col-lg-8
@@ -172,7 +172,7 @@
         .col.align-self-end
           h3.mt-3.mb-0.me-2 Interfaz de Custom Setup 2 de VirtualBox
     
-    p.mb-4(data-aos="fade-up") Finalizada la verificación de las características de configuración de la instalación, el sistema indica que se requiere un reinicio de la conexión de red y una desconexión temporal de la misma. Sin embargo, esto ocurre en fracción de segundos, por lo que no afecta realmente el sistema, a menos que en ese mismo momento se esté realizando un proceso crítico en el host que requiera conexión ininterrumpida.
+    p.mb-4(data-aos="fade-up") Finalizada la verificación de las características de configuración de la instalación, el sistema indica que se requiere un reinicio de la conexión de red y una desconexión temporal de la misma. Sin embargo, esto ocurre en fracción de segundos, por lo que no afecta realmente el sistema, a menos que en ese mismo momento se esté realizando un proceso crítico en el #[em host] que requiera conexión ininterrumpida.
 
 
     .row.align-items-center.mb-4(data-aos="fade-up")
@@ -220,7 +220,7 @@
         figure.mb-4.mb-lg-0
           img.mx-auto(src="@/assets/curso/temas/1.svg",style="max-width: 100px;")
       .col 
-        p.mb-0 En algunas ocasiones, es posible que en los sistemas operativos #[em Windows] se presente o salte una advertencia de seguridad, indicando al usuario que se va a autorizar una instalación de un #[em software] de #[em Oracle Corporation]. Al momento que el sistema genere la notificación, se deberá indicar que se desea instalar para poder continuar.
+        p.mb-0 En algunas ocasiones, es posible que en los sistemas operativos Windows se presente o salte una advertencia de seguridad, indicando al usuario que se va a autorizar una instalación de un #[em software] de Oracle Corporation. Al momento que el sistema genere la notificación, se deberá indicar que se desea instalar para poder continuar.
 
     .row.justify-content-center(data-aos="fade-up")
       .col-lg-8
@@ -278,7 +278,7 @@
           figure
             img(src="@/assets/curso/temas/img-titulo-dec.svg")
         .col.align-self-end
-          h3.mt-3.mb-0.me-2 Interfaz advertencia de #[em red Virtual] “Box”
+          h3.mt-3.mb-0.me-2 Interfaz advertencia de red Virtual “Box”
     
     p.mb-4(data-aos="fade-up") En algunas ocasiones, es posible que en los sistemas operativos Windows se presente o salte una advertencia de seguridad, indicando al usuario que se va a autorizar una instalación de un #[em software] de Oracle Corporation. Al momento que el sistema genere la notificación, se deberá indicar que se desea instalar para poder continuar.
 
@@ -349,7 +349,7 @@
               .row 
                 .col-lg-5.mb-4.mb-lg-0
                   h4.mb-4 Descargar Ubuntu
-                  p.mb-0 Es momento de abordar la virtualización de un sistema operativo “Linux” de distribución “Ubuntu”, por lo cual se debe realizar el proceso de descarga del mismo desde la página oficial #[a.link-p-1(href="www.ubuntu.com" target="_blank") www.ubuntu.com #[i.fas.fa-external-link-alt]], ingresando a la sección de descargas.
+                  p.mb-0 Es momento de abordar la virtualización de un sistema operativo “Linux” de distribución “Ubuntu”, por lo cual se debe realizar el proceso de descarga del mismo desde la página oficial #[a.link-p-1(href="https://ubuntu.com/" target="_blank") www.ubuntu.com #[i.fas.fa-external-link-alt]], ingresando a la sección de descargas.
                 .col-lg-7
                   figure
                     img.mx-auto(src="@/assets/curso/temas/66.png",style="max-width: 610px;",alt="Captura de pantalla de la página principal de Ubuntu.")
@@ -377,7 +377,7 @@
         figure.mb-4.mb-lg-0
           img.mx-auto(src="@/assets/curso/temas/1.svg",style="max-width: 100px;")
       .col 
-        p.mb-0 En algunas ocasiones, es posible que en los sistemas operativos #[em Windows] se presente o salte una advertencia de seguridad, indicando al usuario que se va a autorizar una instalación de un #[em software] de #[em Oracle Corporation]. Al momento que el sistema genere la notificación, se deberá indicar que se desea instalar para poder continuar.
+        p.mb-0 En algunas ocasiones, es posible que en los sistemas operativos Windows se presente o salte una advertencia de seguridad, indicando al usuario que se va a autorizar una instalación de un #[em software] de Oracle Corporation. Al momento que el sistema genere la notificación, se deberá indicar que se desea instalar para poder continuar.
 
     .row.justify-content-center
       .col-lg-10
