@@ -137,7 +137,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/prueba.pdf',
+        download: 'downloads/228118_CF31_DU.zip',
       },
       {
         icono: 'fas fa-download',
