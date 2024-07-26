@@ -48,8 +48,8 @@
               .titulo-sexto.color-acento-contenido
                 p.mb-0(style="font-size: 14px;") #[b(style="font-size: 13px;") Figura 12.]  Arquitectura tecnologías de hipervisores y contenedores
               figure
-                img.mx-auto.d-none.d-lg-block(src="@/assets/curso/temas/29.svg",style="max-width: 900px;",alt="Diagrama comparativo que muestra la diferencia entre máquinas virtuales tradicionales y tecnología de contenedores, detallando la estructura de cada uno, incluyendo aplicaciones, binarios y librerías, sistema operativo host e infraestructura.")
-                img.mx-auto.d-lg-none(src="@/assets/curso/temas/30.svg",style="max-width: 391px;",alt="Diagrama comparativo que muestra la diferencia entre máquinas virtuales tradicionales y tecnología de contenedores, detallando la estructura de cada uno, incluyendo aplicaciones, binarios y librerías, sistema operativo host e infraestructura.")
+                img.mx-auto.d-none.d-lg-block(src="@/assets/curso/temas/29.svg",style="max-width: 900px;",alt="Diagrama comparativo que muestra la diferencia entre máquinas virtuales tradicionales y tecnología de contenedores, detallando la estructura de cada uno, incluyendo aplicaciones, binarios y librerías, sistema operativo, host e infraestructura.")
+                img.mx-auto.d-lg-none(src="@/assets/curso/temas/30.svg",style="max-width: 391px;",alt="Diagrama comparativo que muestra la diferencia entre máquinas virtuales tradicionales y tecnología de contenedores, detallando la estructura de cada uno, incluyendo aplicaciones, binarios y librerías, sistema operativo, host e infraestructura.")
 
 </template>
 

@@ -52,7 +52,7 @@
               ul.lista-ul.list-1.mb-0
                 li
                   i.fas.fa-code.color-sistema-o
-                  span Disponible en forma nativa en S.O Windows en versión pro y #[em server]. Es decir, si se tiene este tipo de versiones, estará disponible de forma gratuita y no requiere de instalación de #[em software] externo al sistema.
+                  span Disponible en forma nativa en S.O. Windows en versión pro y #[em server]. Es decir, si se tiene este tipo de versiones, estará disponible de forma gratuita y no requiere de instalación de #[em software] externo al sistema.
                 li
                   i.fas.fa-code.color-sistema-o
                   span Sirve para virtualizar sistemas Windows y otros como Linux y FreeBSD.
@@ -115,14 +115,14 @@
     p.mb-5(data-aos="fade-up") VirtualBox es una de las herramientas de virtualización de servidores más utilizadas, debido a que permite trabajar desde diversos sistemas operativos como #[em host] y, de igual forma, virtualizar una gran cantidad de sistemas operativos diferentes. Adicionalmente, es un #[em software] de uso gratuito. Para hacer el proceso de instalación, es necesario ir directamente a la página oficial de la herramienta, en la sección de descargas, y luego seleccionar el tipo de sistema operativo del equipo #[em host].
 
     .row.justify-content-center(data-aos="fade-up")
-      .col-lg-8
+      .col-lg-12
         .fondo-color-sistema-i.p-4.borde-10.pb-5
           .row.justify-content-center
-            .col-lg-10
+            .col-lg-12
               .titulo-sexto.color-acento-contenido.ms-lg-4
                 p.mb-0(style="font-size: 14px;") #[b(style="font-size: 13px;") Figura 3.] Instalación de VirtualBox
               figure
-                img.mx-auto(src="@/assets/curso/temas/48.svg",style="max-width: 610px;",alt="Pantalla de la página de descarga de VirtualBox, mostrando opciones para diferentes sistemas operativos como Windows, OS X y Linux.")
+                img.img-a.img-t(src="@/assets/curso/temas/48.jpg",alt="Pantalla de la página de descarga de VirtualBox, mostrando opciones para diferentes sistemas operativos como Windows, OS X y Linux.")
 
     .cont-titulo-decorativo.p-2.mt-5.mb-4(data-aos="fade-up")
       .row
@@ -197,19 +197,12 @@
                   img.mx-auto(src="@/assets/curso/temas/54.svg",style="max-width: 35px;")
               .col 
                 p.mb-0.fw-bold.text-center.text-sm-start Interfaz #[em "Ready to Install"] de VirtualBox.
-            .row.align-items-center.py-2.ps-1(style="border-bottom: 2px dotted #A854F3;")
+            .row.align-items-center.py-2.ps-1
               .col-sm-auto.mb-3.mb-sm-0
                 figure
                   img.mx-auto(src="@/assets/curso/temas/55.svg",style="max-width: 35px;")
               .col 
                 p.mb-0.fw-bold.text-center.text-sm-start El sistema pedirá dar clic en "Instalar" para continuar con el procedimiento.
-            .row.align-items-center.py-2.ps-1
-              .col-sm-auto.mb-3.mb-sm-0
-                figure
-                  img.mx-auto(src="@/assets/curso/temas/56.svg",style="max-width: 35px;")
-              .col 
-                p.mb-0.fw-bold.text-center.text-sm-start Interfaz de advertencia de red de VirtualBox.
-
 
       .col-lg-4.order-first.order-lg-last
         figure.mb-4.mb-lg-0
@@ -347,30 +340,30 @@
           .row.justify-content-center
             .col-lg-11
               .row 
-                .col-lg-5.mb-4.mb-lg-0
+                .col-lg-4.mb-4.mb-lg-0
                   h4.mb-4 Descargar Ubuntu
                   p.mb-0 Es momento de abordar la virtualización de un sistema operativo “Linux” de distribución “Ubuntu”, por lo cual se debe realizar el proceso de descarga del mismo desde la página oficial #[a.link-p-1(href="https://ubuntu.com/" target="_blank") www.ubuntu.com #[i.fas.fa-external-link-alt]], ingresando a la sección de descargas.
-                .col-lg-7
+                .col-lg-8
                   figure
-                    img.mx-auto(src="@/assets/curso/temas/66.png",style="max-width: 610px;",alt="Captura de pantalla de la página principal de Ubuntu.")
+                    img.img-a.img-t(src="@/assets/curso/temas/66.jpg",alt="Captura de pantalla de la página principal de Ubuntu.")
           .row.justify-content-center
             .col-lg-11
               .row
-                .col-lg-5.mb-4.mb-lg-0
+                .col-lg-4.mb-4.mb-lg-0
                   h4.mb-4 Seleccionar distribución
                   p.mb-0 Al ingresar a la página oficial, se puede realizar la descarga de diferentes tipos de distribuciones del sistema operativo, esto en diferentes versiones, facilitando el acceso a la documentación oficial. En este punto el sistema detecta la arquitectura del procesador de la máquina desde donde se genera la descarga. 
-                .col-lg-7
+                .col-lg-8
                   figure
-                    img.mx-auto(src="@/assets/curso/temas/67.png",style="max-width: 610px;",alt="Captura de pantalla de la sección de descargas de Ubuntu que presenta opciones para descargar Ubuntu Desktop, Ubuntu Server, Ubuntu para IoT y Ubuntu Cloud.")
+                    img.img-a.img-t(src="@/assets/curso/temas/67.jpg",alt="Captura de pantalla de la sección de descargas de Ubuntu que presenta opciones para descargar Ubuntu Desktop, Ubuntu Server, Ubuntu para IoT y Ubuntu Cloud.")
           .row.justify-content-center
             .col-lg-11
               .row
-                .col-lg-5.mb-4.mb-lg-0
+                .col-lg-4.mb-4.mb-lg-0
                   h4.mb-4 Requerimientos mínimos
                   p.mb-0 Ahora es necesario que desde la página se indique cuáles son los requerimientos mínimos recomendados para un proceso de instalación, estos deben leerse antes de iniciar el proceso de instalación, de esta manera podrá asegurarse el éxito del mismo.
-                .col-lg-7
+                .col-lg-8
                   figure
-                    img.mx-auto(src="@/assets/curso/temas/68.png",style="max-width: 610px;",alt="Captura de pantalla de la página de descarga de Ubuntu Desktop, específicamente para la versión 20.04.2.0 LTS.")
+                    img.img-a.img-t(src="@/assets/curso/temas/68.jpg",alt="Captura de pantalla de la página de descarga de Ubuntu Desktop, específicamente para la versión 20.04.2.0 LTS.")
 
     .row.mb-5(data-aos="fade-up")
       .col-auto.d-none.d-md-block 

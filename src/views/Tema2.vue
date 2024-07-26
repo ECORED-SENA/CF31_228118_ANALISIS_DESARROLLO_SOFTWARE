@@ -64,7 +64,7 @@
         img.fig-abs-1.d-sm-block(src="@/assets/curso/temas/19.svg")
         .fondo-color-sistema-i.borde-10.py-5.px-4.mb-5.position-relative
           figure
-            img.mx-auto(src="@/assets/curso/temas/20.svg",style="max-width: 455px;")
+            img.mx-auto(src="@/assets/curso/temas/20.svg", alt="Imagen ejemplo de virtualización completa.",style="max-width: 455px;")
         p.mb-4.fw-bold Paravirtualización
         p.mb-0 En este esquema, cada sistema operativo de los servidores virtuales tiene conocimiento de la existencia de los otros. Por ende, el hipervisor se libera un poco de la carga para gestionar los sistemas operativos. Adicionalmente, se tienen ventajas como la posibilidad de crear copias de seguridad fácilmente, migraciones más rápidas, mejor utilización del sistema y ahorro de energía. No todos los sistemas operativos son aptos para este proceso; en algunos casos, se pueden presentar problemas de compatibilidad de #[em hardware].
 

@@ -268,7 +268,6 @@ export default {
     },
     {
       referencia: 'VMware, Inc. (s. f.). What is Virtualization?. VMware.',
-      link: 'https://www.vmware.com/co/solutions/virtualization.html',
     },
     {
       referencia:
