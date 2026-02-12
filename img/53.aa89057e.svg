@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36.5" height="29.652" viewBox="0 0 36.5 29.652">
+  <g id="Grupo_1104509" data-name="Grupo 1104509" transform="translate(-0.25 -4.25)">
+    <g id="Grupo_1104507" data-name="Grupo 1104507" transform="translate(1 5)">
+      <path id="Trazado_880618" data-name="Trazado 880618" d="M1,5H36V33.152H1Z" transform="translate(-1 -5)" fill="none" stroke="#3a1d71" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <g id="Grupo_1104506" data-name="Grupo 1104506" transform="translate(2.283 3.804)">
+        <circle id="Elipse_11853" data-name="Elipse 11853" cx="0.761" cy="0.761" r="0.761" fill="#3a1d71"/>
+        <circle id="Elipse_11854" data-name="Elipse 11854" cx="0.761" cy="0.761" r="0.761" transform="translate(2.283)" fill="#3a1d71"/>
+        <circle id="Elipse_11855" data-name="Elipse 11855" cx="0.761" cy="0.761" r="0.761" transform="translate(4.565)" fill="#3a1d71"/>
+      </g>
+      <path id="Trazado_880619" data-name="Trazado 880619" d="M15,11H39.348" transform="translate(-4.348 -6.435)" fill="none" stroke="#3a1d71" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    </g>
+    <g id="Grupo_1104508" data-name="Grupo 1104508" transform="translate(12.419 14.891)">
+      <path id="Trazado_880620" data-name="Trazado 880620" d="M20.25,24.536l2.092,2.092,6.721-7.546" transform="translate(-17.022 -18.258)" fill="none" stroke="#3a1d71" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Trazado_880621" data-name="Trazado 880621" d="M28.126,23.307a6.084,6.084,0,1,1-3.792-4.879" transform="translate(-16.008 -17.999)" fill="none" stroke="#3a1d71" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    </g>
+  </g>
+</svg>
